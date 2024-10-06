@@ -1,0 +1,28 @@
+BEGIN ksh
+echo "Hello Vim!"
+END
+
+
+
+BEGIN ksh
+print_fibonacci() {
+    n=$1
+    a=0
+    b=1
+
+    echo "Fibonacci sequence up to $n:"
+
+    for ((i=0; i<n; i++)); do
+        print "$a"
+        fn=$((a + b))
+        a=$b
+        b=$fn
+    done
+}
+
+main() {
+    num=10
+    print_fibonacci $num
+}
+main
+END

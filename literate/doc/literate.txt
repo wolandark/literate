@@ -1,0 +1,11 @@
+*literate.txt*   For literate programming in Vim
+
+This plugin provides support for literate programming in Vim using .lit files.
+Currently supported languages are: sh, perl, python, ksh
+
+Commands:
+  <C-c><C-c>    Execute the code block.
+
+Filetypes:
+  .lit          Literate programming files with syntax highlighting.
+
