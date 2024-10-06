@@ -1,6 +1,12 @@
 # Installation
 Place the `literate` directory at `~/.vim/pack/plugins/start/literate`
 
+or
+
+```vim
+Plug 'wolandark/literate'
+```
+
 # Testing
 There are several tests under `~/literate/tests`. You can open any of them and press `<C-c><C-c>` over the `BEGIN` token to execute the code block.
 
