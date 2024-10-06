@@ -12,3 +12,6 @@ You can add any language to the plugin by adding an `elseif` block to the `if l:
 
 # Contribution 
 Please follow the standards of code contribution.
+
+# License 
+Same as Vim
