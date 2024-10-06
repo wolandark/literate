@@ -21,6 +21,8 @@ function! ExecuteCodeBlock()
 
     if l:lang ==# 'sh'
         let l:shell = '/bin/sh'
+    elseif l:lang ==# 'bash'
+        let l:shell = '/bin/bash'
     elseif l:lang ==# 'python'
         let l:shell = '/usr/bin/python3'
     elseif l:lang ==# 'ksh'
