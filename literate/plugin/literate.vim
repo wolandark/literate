@@ -24,7 +24,7 @@ function! ExecuteCodeBlock()
     elseif l:lang ==# 'python'
         let l:shell = '/usr/bin/python3'
     elseif l:lang ==# 'ksh'
-        let l:shell = '/usr/bin/perl'
+        let l:shell = '/usr/bin/ksh'
     elseif l:lang ==# 'perl'
         let l:shell = '/usr/bin/perl'
     else
