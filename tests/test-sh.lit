@@ -1,10 +1,10 @@
-BEGIN sh
+BEGIN bash
 echo "Hello Vim!"
 END
 
 
 
-BEGIN sh
+BEGIN bash
 main(){
     rows=5;
 
