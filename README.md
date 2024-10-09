@@ -1,3 +1,6 @@
+### Note:
+If you're interested in literate programming in MarkDown files, see my other plugin https://github.com/wolandark/vim-literate-md
+
 # Installation
 Place the `literate` directory at `~/.vim/pack/plugins/start/literate`
 
